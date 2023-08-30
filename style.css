@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Inter&family=Montserrat&family=Outfit:wght@300&family=Poppins:ital,wght@1,200&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  /*height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 430px;
+  width: 280px;
+  padding-top: 61px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+}
+
+h3 {
+  color: white;
+}
+
+h3:hover{
+    color:  hsl(178, 100%, 50%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.main {
+  color: hsl(215, 51%, 70%);
+}
+
+.card_text {
+  margin-left: 20px;
+}
+
+.card_text_bottom {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+}
+
+.ETH {
+  letter-spacing: 1px;
+  display: flex;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  letter-spacing: 1px;
+  display: flex;
+  margin-left: 65px;
+  color: hsl(215, 51%, 70%);
+}
+
+#icon-c {
+  position: relative;
+  top: 30%;
+  right: 3px;
+  width: 25px;
+  height: 25px;
+}
+
+#icon-e {
+  position: relative;
+  top: 27%;
+  margin-right: 5px;
+  width: 15px;
+  height: 25px;
+}
+
+.img {
+  height: 240px;
+  width: 240px;
+  border-radius: 5px;
+}
+
+.avatar {
+  position: relative;
+  top: 23%;
+  margin-right: 5px;
+  height: 25px;
+  width: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+#bot {
+  display: flex;
+  position: relative;
+  right: 20px;
+  bottom: 50px;
+}
+
+.line {
+  position: relative;
+  bottom: 35px;
+  color: hsl(215, 32%, 27%);
+  font-family: sans-serif;
+}
+
+.J {
+  color: white;
+  margin-left: 3px;
+}
+
+.J:hover{
+    color:  hsl(178, 100%, 50%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.C {
+  color: hsl(215, 51%, 70%);
+}
+
+.image{
+    height: 240px;
+    width: 240px;
+    /*position: relative;
+    bottom: 48px;*/  
+}
+
+.eye{
+    position: absolute;
+    top: 13%;
+    right: 26%;
+    border-radius: 8px;
+    background-color: rgb(0, 255, 247, 0.45);
+    padding: 97px;
+    opacity: 1;
+}
+
+.eye:hover{
+    opacity: 1;
+    transition: 0.35s ease-in-out;
+    cursor: pointer;
+}
+
+@media (width>= 1040px){
+    .eye{
+        position: absolute;
+        top: 13%;
+        right: 41%;
+        border-radius: 8px;
+        background-color: rgb(0, 255, 247, 0.45);
+        padding: 97px;
+        opacity: 0;
+    }
+    
+    .eye:hover{
+        opacity: 1;
+        transition: 0.35s ease-in-out;
+        cursor: pointer;
+    }
+    
+}
+
+
